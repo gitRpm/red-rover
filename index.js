@@ -38,7 +38,7 @@ const buildObjResult = (str) => {
     return obj;
   }
 
-  return parseArray(strArray);
+  return parseArray();
 }
 
 const output = (obj, sorted = false, spaces = 0) => {
